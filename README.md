@@ -15,6 +15,9 @@ bc: for performing mathematical calculations
 # Usage
 
 To use the script, simply run it at the desired frequency using a cron job.
+To set up a cron job to run the script at 8 AM every morning for example, you can use the following command:
+
+0 8 * * * /path/to/script.sh
 
 Telegram Integration
 
